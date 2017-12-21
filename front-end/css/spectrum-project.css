@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+body {
+  text-align: center;
+  font-family: 'Bungee', cursive;
+}
+
+table {
+  margin: auto;
+  height: 400px;
+}
+
+td {
+  width: 150px;
+  background-size: contain;
+  border: 8px solid white;
+}
+
+td:nth-child(1) {
+  background-color: #114B5F;
+}
+
+td:nth-child(2) {
+  background-color: #028090;
+}
+
+td:nth-child(3) {
+  background-color: #E4FDE1;
+}
+
+td:nth-child(4) {
+  background-color: #456990;
+}
+
+td:nth-child(5) {
+  background-color: #F45B69;
+}
