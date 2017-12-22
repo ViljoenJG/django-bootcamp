@@ -2,7 +2,6 @@ h1 {
   color: blue;
 }
 
-img {
-  width: 400px;
-  height: auto;
-};
+table, th, td {
+  border: 2px solid black;
+}
