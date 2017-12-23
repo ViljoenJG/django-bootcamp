@@ -5,7 +5,6 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'protwo.settings')
 django.setup()
 
 ## Populate DB with fake data
-import random
 from faker import Faker
 from apptwo.models import User
 

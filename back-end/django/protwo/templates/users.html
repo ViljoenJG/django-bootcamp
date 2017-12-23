@@ -10,16 +10,18 @@
     <h1>User List</h1>
 
     {% if user_list %}
+    <ol>
+      {% for user in user_list %}
+      <li>User info:</li>
+      <ul>
+        <li>First name: {{ user.first_name }}</li>
+        <li>Last name: {{ user.last_name }}</li>
+        <li>Email: {{ user.email }}</li>
+      </ul>
+      <br>
+      {% endfor %}
 
-    {% for user in user_list %}
-    <p>User:</p>
-    <ul>
-      <li>{{ user.first_name }}</li>
-      <li>{{ user.last_name }}</li>
-      <li>{{ user.email }}</li>
-    </ul>
-    <br>
-    {% endfor %}
+    </ol>
 
     {% else %}
     <p>No users found</p>
